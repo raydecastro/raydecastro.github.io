@@ -4,9 +4,7 @@
 }
 
 .blinking-cursor {
-  font-weight: 100;
-  font-size: 30px;
-  color: #2E3D48;
+  color: blue;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
   -ms-animation: 1s blink step-end infinite;
@@ -19,7 +17,7 @@
     color: transparent;
   }
   50% {
-    color: black;
+    color: blue;
   }
 }
 
@@ -28,7 +26,7 @@
     color: transparent;
   }
   50% {
-    color: black;
+    color: blue;
   }
 }
 
@@ -46,7 +44,7 @@
     color: transparent;
   }
   50% {
-    color: black;
+    color: blue;
   }
 }
 
@@ -55,6 +53,6 @@
     color: transparent;
   }
   50% {
-    color: black;
+    color: blue;
   }
 }
