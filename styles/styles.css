@@ -1,15 +1,17 @@
 .love {
+    color: #2719C7;
     font-family: Courier New, Courier, monospace;
-    color: blue;
 }
 
 .blinking-cursor {
-  color: blue;
+  animation: 1s blink step-end infinite;
+  color: #2719C7;
+  margin-left: 9px;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
   -ms-animation: 1s blink step-end infinite;
   -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
+  
 }
 
 @keyframes "blink" {
@@ -17,7 +19,7 @@
     color: transparent;
   }
   50% {
-    color: blue;
+    color: #2719C7;
   }
 }
 
@@ -26,7 +28,7 @@
     color: transparent;
   }
   50% {
-    color: blue;
+    color: #2719C7;
   }
 }
 
@@ -35,7 +37,7 @@
     color: transparent;
   }
   50% {
-    color: black;
+    color: #2719C7;
   }
 }
 
@@ -44,7 +46,7 @@
     color: transparent;
   }
   50% {
-    color: blue;
+    color: #2719C7;
   }
 }
 
@@ -53,6 +55,6 @@
     color: transparent;
   }
   50% {
-    color: blue;
+    color: #2719C7;
   }
 }
